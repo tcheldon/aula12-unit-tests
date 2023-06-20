@@ -1,0 +1,33 @@
+.list-item {
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+    padding: 10px 5px;
+    /* faz com que todas as divs filhas 
+    que sejam absolutas tenham como referencia 
+    máxima o tamanho desse elemento pai */
+    position: relative;
+}
+
+.list-item-image-wrapper {
+    width: 100%;
+    height: 180px;
+}
+
+.list-item-image {
+    width: 100%;
+}
+
+.list-item-heart-wrapper {
+    /* fica na sobreposto a tudo que tiver no elemento */
+    /* para que respeite a sessão a desejada deve-se adicionar 'position: relative' na sessão pai*/
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 22px;
+}

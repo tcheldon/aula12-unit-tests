@@ -1,0 +1,14 @@
+.heart {
+    /* cursor do mouse com mãozinha */
+    cursor: pointer;
+    /* preenchimento cinza */
+    fill: lightgray;
+}
+
+.heart-selected {
+    fill: red;
+}
+
+.heart:hover{
+    fill:  red;
+}
